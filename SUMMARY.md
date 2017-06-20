@@ -12,4 +12,6 @@
     * [希尔排序](suan-fa/pai-xu/xi-er-pai-xu.md)
     * [冒泡排序](suan-fa/pai-xu/mao-pao-pai-xu.md)
     * [快速排序](suan-fa/pai-xu/kuai-su-pai-xu.md)
+* [蓝牙](lan-ya-4-0.md)
+  * [蓝牙协议栈](lan-ya-4-0/lan-ya-xie-yi-zhan.md)
 
