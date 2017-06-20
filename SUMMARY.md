@@ -8,4 +8,5 @@
 * 多线程
 * [算法](suan-fa.md)
   * [排序](suan-fa/pai-xu.md)
+    * [直接插入排序算法](suan-fa/pai-xu/zhi-jie-cha-ru-pai-xu-suan-fa.md)
 
