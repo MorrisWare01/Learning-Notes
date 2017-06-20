@@ -3,18 +3,21 @@
 类似扑克牌摸牌：摸来的第一张牌无须整理，此后每次从卓上的牌（无序区）中模最上面的1张并插入手牌（有序区）中正确位置上。为了找到这个位置，须从左向右（或从右向左）将摸来的牌与手牌逐一比较。
 
 ```
-void insertSort(int[] arr,int length){
-    if(arr == null || length <= 0){
+void insertSort(int[] A,int n){
+    if(A == null || n <= 1){
         return;
     }
-    
-    for(int i = 1;i < length; i ++){
-        for(int j = 0;j < i+1; j++){
-            
+    int i,j,temp;
+
+    for(i = 1;i < n; i++){
+        temp = A[i];
+        for(j = i;j > 0 && temp < A[j-1];j--){
+            A[j] = A[j - 1];
         }
-    } 
-    
+        A[j] = temp;
+    }
 }
+
 ```
 
 
