@@ -17,6 +17,6 @@
   * [BLE](lan-ya-4-0/ble.md)
 * [Ubuntu之旅](ubuntuzhi-lv.md)
   * [安装驱动](ubuntuzhi-lv/an-zhuang-qu-dong.md)
-    * 显卡驱动
+    * [显卡驱动](ubuntuzhi-lv/an-zhuang-qu-dong/xian-qia-qu-dong.md)
     * [无线网卡驱动](ubuntuzhi-lv/an-zhuang-qu-dong/wu-xian-wang-qia-qu-dong.md)
 
