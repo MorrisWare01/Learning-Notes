@@ -15,4 +15,8 @@
 * [蓝牙](lan-ya-4-0.md)
   * [蓝牙协议栈](lan-ya-4-0/lan-ya-xie-yi-zhan.md)
   * [BLE](lan-ya-4-0/ble.md)
+* [Ubuntu之旅](ubuntuzhi-lv.md)
+  * [安装驱动](ubuntuzhi-lv/an-zhuang-qu-dong.md)
+    * 显卡驱动
+    * [无线网卡驱动](ubuntuzhi-lv/an-zhuang-qu-dong/wu-xian-wang-qia-qu-dong.md)
 
