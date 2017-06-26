@@ -19,8 +19,7 @@
   * [安装驱动](ubuntuzhi-lv/an-zhuang-qu-dong.md)
     * [显卡驱动](ubuntuzhi-lv/an-zhuang-qu-dong/xian-qia-qu-dong.md)
     * [无线网卡驱动](ubuntuzhi-lv/an-zhuang-qu-dong/wu-xian-wang-qia-qu-dong.md)
-* [内存区域](shen-ru-li-jie-java-xu-ni-ji/nei-cun-qu-yu-yu-nei-cun-yi-chu.md)
-* [内存区域](shen-ru-li-jie-java-xu-ni-ji/nei-cun-qu-yu-yu-nei-cun-yi-chu.md)
 * [深入理解Java虚拟机](shen-ru-li-jie-java-xu-ni-ji.md)
-  * [内存区域](shen-ru-li-jie-java-xu-ni-ji/nei-cun-qu-yu.md)
+  * [内存模型](shen-ru-li-jie-java-xu-ni-ji/nei-cun-qu-yu.md)
+  * [类加载机制](shen-ru-li-jie-java-xu-ni-ji/lei-jia-zai-ji-zhi.md)
 
