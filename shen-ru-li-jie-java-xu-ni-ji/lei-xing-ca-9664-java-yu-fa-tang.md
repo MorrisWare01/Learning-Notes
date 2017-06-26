@@ -19,8 +19,12 @@ Map map = new HashMap();
 map.put(1,"No.1");  
 map.put(2,"No.2");  
 System.out.println((String)map.get(1));  
-System.out.println((String)map.get(2)); 
+System.out.println((String)map.get(2));
 ```
 
+### 特征签名
 
+Java方法特征签名：包括了方法名称、参数顺序和参数类型，并不包括方法的返回值。
+
+字节码特征签名：除了包括了方法名称、参数顺序和参数类型，还包括方法返回值及受查异常表。
 
