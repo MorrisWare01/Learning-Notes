@@ -22,5 +22,6 @@
 * [深入理解Java虚拟机](shen-ru-li-jie-java-xu-ni-ji.md)
   * [内存模型](shen-ru-li-jie-java-xu-ni-ji/nei-cun-qu-yu.md)
   * [类加载机制](shen-ru-li-jie-java-xu-ni-ji/lei-jia-zai-ji-zhi.md)
+  * [类型擦除-JAVA语法糖](shen-ru-li-jie-java-xu-ni-ji/lei-xing-ca-9664-java-yu-fa-tang.md)
   * [特性签名](shen-ru-li-jie-java-xu-ni-ji/te-xing-qian-ming.md)
 
