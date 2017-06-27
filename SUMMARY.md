@@ -27,6 +27,9 @@
     * [结构体](ndkkai-fa-zhi-lv/cyu-yan-ji-chu/jie-gou-ti.md)
     * [联合体与枚举](ndkkai-fa-zhi-lv/cyu-yan-ji-chu/lian-he-ti-yu-mei-ju.md)
     * [数据IO](ndkkai-fa-zhi-lv/cyu-yan-ji-chu/io.md)
+      * [读写文本文件](ndkkai-fa-zhi-lv/cyu-yan-ji-chu/io/du-xie-wen-ben-wen-jian.md)
+      * [读写二进制文件](ndkkai-fa-zhi-lv/cyu-yan-ji-chu/io/du-xie-er-jin-zhi-wen-jian.md)
+      * [获取文件大小](ndkkai-fa-zhi-lv/cyu-yan-ji-chu/io/huo-qu-wen-jian-da-xiao.md)
   * [C++基础](ndkkai-fa-zhi-lv/cji-chu.md)
   * JNI基础
   * Android Studio下配置NDK开发环境
