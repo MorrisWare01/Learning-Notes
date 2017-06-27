@@ -32,6 +32,7 @@
       * [获取文件大小](ndkkai-fa-zhi-lv/cyu-yan-ji-chu/io/huo-qu-wen-jian-da-xiao.md)
       * [文件加密解密](ndkkai-fa-zhi-lv/cyu-yan-ji-chu/io/wen-jian-jia-mi-jie-mi.md)
       * [二进制文件加解密](ndkkai-fa-zhi-lv/cyu-yan-ji-chu/io/er-jin-zhi-wen-jian-jia-jie-mi.md)
+    * [预编译](ndkkai-fa-zhi-lv/cyu-yan-ji-chu/yu-bian-yi.md)
   * [C++基础](ndkkai-fa-zhi-lv/cji-chu.md)
   * JNI基础
   * Android Studio下配置NDK开发环境
