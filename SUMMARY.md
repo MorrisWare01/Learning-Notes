@@ -1,11 +1,14 @@
 # Summary
 
 * [Introduction](README.md)
-* [Git命令](chapter1.md)
-* [Migrate svn to git](migrate-svn-to-git.md)
-* [Binder](binder.md)
-  * [1](binder/1.md)
-* 多线程
+* [Ubuntu之旅](ubuntuzhi-lv.md)
+  * [安装驱动](ubuntuzhi-lv/an-zhuang-qu-dong.md)
+    * [显卡驱动](ubuntuzhi-lv/an-zhuang-qu-dong/xian-qia-qu-dong.md)
+    * [无线网卡驱动](ubuntuzhi-lv/an-zhuang-qu-dong/wu-xian-wang-qia-qu-dong.md)
+* [深入理解Java虚拟机](shen-ru-li-jie-java-xu-ni-ji.md)
+  * [内存模型](shen-ru-li-jie-java-xu-ni-ji/nei-cun-qu-yu.md)
+  * [类加载机制](shen-ru-li-jie-java-xu-ni-ji/lei-jia-zai-ji-zhi.md)
+  * [JAVA语法糖](shen-ru-li-jie-java-xu-ni-ji/lei-xing-ca-9664-java-yu-fa-tang.md)
 * [算法](suan-fa.md)
   * [排序](suan-fa/pai-xu.md)
     * [直接插入排序算法](suan-fa/pai-xu/zhi-jie-cha-ru-pai-xu-suan-fa.md)
@@ -15,12 +18,9 @@
 * [蓝牙](lan-ya-4-0.md)
   * [蓝牙协议栈](lan-ya-4-0/lan-ya-xie-yi-zhan.md)
   * [BLE](lan-ya-4-0/ble.md)
-* [Ubuntu之旅](ubuntuzhi-lv.md)
-  * [安装驱动](ubuntuzhi-lv/an-zhuang-qu-dong.md)
-    * [显卡驱动](ubuntuzhi-lv/an-zhuang-qu-dong/xian-qia-qu-dong.md)
-    * [无线网卡驱动](ubuntuzhi-lv/an-zhuang-qu-dong/wu-xian-wang-qia-qu-dong.md)
-* [深入理解Java虚拟机](shen-ru-li-jie-java-xu-ni-ji.md)
-  * [内存模型](shen-ru-li-jie-java-xu-ni-ji/nei-cun-qu-yu.md)
-  * [类加载机制](shen-ru-li-jie-java-xu-ni-ji/lei-jia-zai-ji-zhi.md)
-  * [JAVA语法糖](shen-ru-li-jie-java-xu-ni-ji/lei-xing-ca-9664-java-yu-fa-tang.md)
+* [NDK开发之旅](ndkkai-fa-zhi-lv.md)
+  * [C语言基础](ndkkai-fa-zhi-lv/cyu-yan-ji-chu.md)
+  * C++基础
+  * JNI基础
+  * Android Studio下配置NDK开发环境
 
