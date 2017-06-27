@@ -36,16 +36,26 @@
 返回：指向dest的指针。
 ```
 
-#### strlen字符长度
+#### strlen字符串长度
 
 ```
 原型：extern unsigned int strlen(char *s);
 
 用法：#include <string.h>
 
-功能：查找字符串s中首次出现字符c的位置
+功能：计算给定字符串的（unsigned int型）长度，不包括'\0'在内
 
-说明：返回首次出现c的位置的指针，如果s中不存在c则返回NULL。
+说明：返回s的长度，不包括结束符NULL。
+```
+
+#### strcmp字符串比较
+
+```
+原型：extern int strcmp(const char *s1,const char *s2);
+
+用法：#include <string.h>
+
+功能：如果s1和s2是相同的，则返回0；如果s1<s2则返回小于0；如果s1>s2则返回大于0。
 ```
 
 #### strchr字符查找
