@@ -37,5 +37,130 @@ void main(){
 
 #### 宏定义、宏替换
 
+作用：
+
+1. 定义标识。
+2. 定义常数（便于修改与阅读）。
+3. 定义“宏函数”。
+
+##### 1、定义标识
+
+作用：
+
+1、例如通过判断一些标识是否定义来判断是否支持某种语法、平台等等：
+
+```
+//表示支持C++语法
+#ifdef __cplusplus
+
+#endif // __cplusplus
+
+//表示支持Android、Windows、苹果平台等等
+#ifdef ANDROID
+
+#endif // ANDROID
+```
+
+2、防止文件重复引入：
+
+举个例子，我们有三个文件a.h、b.h、Test.cpp，分别如下：
+
+这是a.h：
+
+```
+#include "b.h"
+
+void a();
+```
+
+这是b.h：
+
+```
+#include "a.h"
+
+void b();
+```
+
+最后Test.cpp里面引用了a.h
+
+```
+#include "a.h"
+```
+
+这样，当Test包含a的时候，a又会去包含b，b又会包含a，这样就会造成循环包含。类似于Hibernate里面的SQL循环引用。最终会报如下错误：
+
+```
+fatal error C1014: 包含文件太多 : 深度 = 1024
+```
+
+通过宏定义判断就可以解决这个问题：（b.h省略）
+
+```
+#if A_H
+
+#include "b.h"
+
+void a();
+
+#endif
+```
+
+另外，新版本的时候通过\#pragma once语句即可自动解决这个问题。
+
+```
+//该头文件只被包含一次，编译器自动处理循环包含问题
+#pragma once
+```
+
+##### 2、定义常熟，方便阅读
+
+```
+#define MAX 100
+
+void main(){
+
+    int i = 100;
+    if (i == MAX){
+        printf("哈哈");
+    }
+
+    system("pause");
+}
+```
+
+##### 3、定义“宏函数”。
+
+实质上就是一个替换的过程。
+
+简单实用例子：
+
+```
+#define LOG(FORMAT , ...) printf("info"); printf(##FORMAT , __VA_ARGS__);
+```
+
+LOG会有级别，于是进一步升级：
+
+```
+#define LOG_I(FORMAT , ...) printf("info"); printf(##FORMAT , __VA_ARGS__);
+#define LOG_E(FORMAT , ...) printf("error"); printf(##FORMAT , __VA_ARGS__);
+```
+
+进一步简化重复代码，重复LEVEL日志级别：
+
+```
+#define LOG(LEVEL , FORMAT , ...) printf(##LEVEL); printf(##FORMAT , __VA_ARGS__);
+#define LOG_I(FORMAT , ...) LOG("info" , ##FORMAT , __VA_ARGS__)
+#define LOG_E(FORMAT , ...) LOG("error" , ##FORMAT , __VA_ARGS__)
+```
+
+在Android JNI开发的时候，我们打印一句日志是通过\_\_android\_log\_print函数来实现的，因此我们可以通过宏定义简化代码：
+
+```
+#define LOGI(FORMAT,...) __android_log_print(ANDROID_LOG_INFO,"jason",FORMAT,##__VA_ARGS__);
+LOGI("%s","fix");
+//替换
+__android_log_print(ANDROID_LOG_INFO, "jason", "%s", "fix");
+```
+
 
 
