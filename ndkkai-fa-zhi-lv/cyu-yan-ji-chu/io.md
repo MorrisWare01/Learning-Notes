@@ -151,10 +151,10 @@ void main(){
 
 用法：#include <stdio.h>
 
-功能：设置文件指针stream的位置。
-
-说明：如果执行成功，stream将指向以fromwhere为基准，偏移offset（指针偏移量）个字节的位置，函数返回0。
+功能：如果执行成功，stream将指向以fromwhere为基准，偏移offset（指针偏移量）个字节的位置，函数返回0。
 如果执行失败(比如offset超过文件自身大小)，则不改变stream指向的位置，函数返回一个非0值。
+
+说明：
 ```
 
 ```
