@@ -24,6 +24,7 @@
     * [指针](ndkkai-fa-zhi-lv/cyu-yan-ji-chu/zhi-zhen.md)
     * [内存分配](ndkkai-fa-zhi-lv/cyu-yan-ji-chu/nei-cun-fen-pei.md)
     * [字符串](ndkkai-fa-zhi-lv/cyu-yan-ji-chu/zi-fu-chuan.md)
+    * [结构体](ndkkai-fa-zhi-lv/cyu-yan-ji-chu/jie-gou-ti.md)
   * [C++基础](ndkkai-fa-zhi-lv/cji-chu.md)
   * JNI基础
   * Android Studio下配置NDK开发环境
