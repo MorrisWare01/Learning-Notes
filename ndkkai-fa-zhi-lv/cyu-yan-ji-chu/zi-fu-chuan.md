@@ -11,11 +11,11 @@
 ```
 原型：extern char *stpcpy(char *dest,char *src);
 
-  用法：#include <string.h>
+用法：#include <string.h>
 
-  功能：把src所指由NULL结束的字符串复制到dest所指的数组中。
+功能：把src所指由NULL结束的字符串复制到dest所指的数组中。
 
-  说明：src和dest所指内存区域不可以重叠且dest必须有足够的空间来容纳src的字符串。
+说明：src和dest所指内存区域不可以重叠且dest必须有足够的空间来容纳src的字符串。
 
 返回：指向dest结尾处字符(NULL)的指针。
 
