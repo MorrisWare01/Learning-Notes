@@ -26,8 +26,9 @@ public class HelloWorld {
 
     static {
         System.loadLibrary("HelloWorld");
+	//System.load("/home/morrisware/JNI/HelloWorld/lib/libHelloWorld.so"
     }
-} 
+}
 ```
 
 ##### 2.用 javac 命令将`.java`源文件编译成`.class`字节码文件
@@ -43,7 +44,7 @@ public class HelloWorld {
 
 ```
 ➜  HelloWorld mkdir jni
-➜  HelloWorld javah -jni -classpath ./bin/ -d jni com.win.jni.HelloWorld 
+➜  HelloWorld javah -jni -classpath ./bin/ -d jni com.win.jni.HelloWorld
 ```
 
 -classpath 类搜索路径，这里表示从当前的 bin 目录下查找
@@ -92,7 +93,7 @@ extern "C" {
  *    * Signature: (Ljava/lang/String;)Ljava/lang/String;
  *     */
 JNIEXPORT jstring JNICALL Java_com_win_jni_HelloWorld_sayHello
-		  (JNIEnv *env, jclass type, jstring name_){
+          (JNIEnv *env, jclass type, jstring name_){
     const char *name = (*env)->GetStringUTFChars(env,name_,0);
     char buff[100];
     if(name == NULL){
@@ -108,7 +109,6 @@ JNIEXPORT jstring JNICALL Java_com_win_jni_HelloWorld_sayHello
 #ifdef __cplusplus
 }
 #endif
-
 ```
 
 ##### 5.将 C/C++ 代码编译成本地动态库文件动态库文件名命名规则：lib+动态库文件名+后缀（操作系统不一样，后缀名也不一样）如：
@@ -122,7 +122,7 @@ Linux/Unix
 ```
 ➜  HelloWorld mkdir lib
 ➜  jni gcc -I$JAVA_HOME/include -I$JAVA_HOME/include/linux -fPIC -shared 
-com_win_jni_HelloWorld.c -o ../lib/libhello.so  
+com_win_jni_HelloWorld.c -o ../lib/libhello.so
 ```
 
 参数说明：
@@ -138,7 +138,7 @@ com_win_jni_HelloWorld.c -o ../lib/libhello.so
 
 ```
 System.loadLibrary("hello");  
-System.load("/home/morrisware/JNI/HelloWorld/lib/libhello.so"); 
+System.load("/home/morrisware/JNI/HelloWorld/lib/libhello.so");
 ```
 
 * 让 Java 从 java.library.path 找到动态链接库文件
