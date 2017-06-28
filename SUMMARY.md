@@ -35,5 +35,5 @@
     * [预编译](ndkkai-fa-zhi-lv/cyu-yan-ji-chu/yu-bian-yi.md)
   * [C++基础](ndkkai-fa-zhi-lv/cji-chu.md)
   * JNI基础
-  * Android Studio下配置NDK开发环境
+  * [Android Studio下配置NDK开发环境](ndkkai-fa-zhi-lv/android-studioxia-pei-zhi-ndk-kai-fa-huan-jing.md)
 
