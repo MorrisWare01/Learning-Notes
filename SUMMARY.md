@@ -27,6 +27,7 @@
     * [结构体](ndkkai-fa-zhi-lv/cyu-yan-ji-chu/jie-gou-ti.md)
     * [联合体与枚举](ndkkai-fa-zhi-lv/cyu-yan-ji-chu/lian-he-ti-yu-mei-ju.md)
     * [数据IO](ndkkai-fa-zhi-lv/cyu-yan-ji-chu/io.md)
+      * [开关文本文件](ndkkai-fa-zhi-lv/cyu-yan-ji-chu/io/kai-guan-wen-ben-wen-jian.md)
       * [读写文本文件](ndkkai-fa-zhi-lv/cyu-yan-ji-chu/io/du-xie-wen-ben-wen-jian.md)
       * [读写二进制文件](ndkkai-fa-zhi-lv/cyu-yan-ji-chu/io/du-xie-er-jin-zhi-wen-jian.md)
       * [获取文件大小](ndkkai-fa-zhi-lv/cyu-yan-ji-chu/io/huo-qu-wen-jian-da-xiao.md)
