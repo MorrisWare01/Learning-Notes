@@ -41,6 +41,12 @@
     * [JNI数组处理](ndkkai-fa-zhi-lv/jniji-chu/jnishu-zu-chu-li.md)
     * [属性与方法签名](ndkkai-fa-zhi-lv/jniji-chu/shu-xing-yu-fang-fa-qian-ming.md)
     * [C/C++访问Java的属性、方法](ndkkai-fa-zhi-lv/jniji-chu/ccfang-wen-java-de-shu-xing-3001-fang-fa.md)
+    * [JNI引用](ndkkai-fa-zhi-lv/jniji-chu/jniyin-yong.md)
+    * [JNI异常处理](ndkkai-fa-zhi-lv/jniji-chu/jniyi-chang-chu-li.md)
   * [C++基础](ndkkai-fa-zhi-lv/cji-chu.md)
-  * [Android Studio下配置NDK开发环境](ndkkai-fa-zhi-lv/android-studioxia-pei-zhi-ndk-kai-fa-huan-jing.md)
+  * [Android Studio下NDK开发](ndkkai-fa-zhi-lv/android-studioxia-ndk-kai-fa.md)
+    * 配置NDK开发环境
+    * CMake分析
+* [音视频知识](yin-shi-pin-zhi-shi.md)
+  * [FFmpeg](yin-shi-pin-zhi-shi/ffmpeg.md)
 
