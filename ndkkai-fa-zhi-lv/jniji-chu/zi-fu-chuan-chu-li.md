@@ -56,6 +56,12 @@ JVM 内部会分配一块新的内存，用于存储源字符串的拷贝，以�
 ```
 
 ```
+原型：jstring (*NewString)(JNIEnv*, const jchar*, jsize);
+
+功能：构建一个新的 java.lang.String 字符串对象，这个新创建的字符串会自动转换成 Java 支持的 Unicode 编码。
+```
+
+```
 原型：jsize (*GetStringLength)(JNIEnv*, jstring);
 
 功能：获取unicode编码的jstring字符串的长度
