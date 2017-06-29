@@ -37,6 +37,8 @@
   * [JNI基础](ndkkai-fa-zhi-lv/jniji-chu.md)
     * [JNI开发流程](ndkkai-fa-zhi-lv/jniji-chu/jnikai-fa-liu-cheng.md)
     * [JNI数据类型](ndkkai-fa-zhi-lv/jniji-chu/jnishu-ju-lei-xing-yu-fang-fa-diao-yong.md)
+    * [JNI字符串处理](ndkkai-fa-zhi-lv/jniji-chu/zi-fu-chuan-chu-li.md)
+    * [JNI数组处理](ndkkai-fa-zhi-lv/jniji-chu/jnishu-zu-chu-li.md)
     * [属性与方法签名](ndkkai-fa-zhi-lv/jniji-chu/shu-xing-yu-fang-fa-qian-ming.md)
     * [C/C++访问Java的属性、方法](ndkkai-fa-zhi-lv/jniji-chu/ccfang-wen-java-de-shu-xing-3001-fang-fa.md)
   * [C++基础](ndkkai-fa-zhi-lv/cji-chu.md)
