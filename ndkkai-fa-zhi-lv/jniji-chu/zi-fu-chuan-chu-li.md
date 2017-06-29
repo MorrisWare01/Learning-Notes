@@ -23,6 +23,22 @@
 JVM 内部会分配一块新的内存，用于存储源字符串的拷贝，以便本地代码访问和修改。
 ```
 
+```
+原型：jstring (*NewStringUTF)(JNIEnv*, const char*);
+
+功能：构建一个新的 java.lang.String 字符串对象，这个新创建的字符串会自动转换成 Java 支持的 Unicode 编码。
+
+说明：如果 JVM 不能为构造 java.lang.String 分配足够的内存，NewStringUTF 会抛出一个 OutOfMemoryError 异常，并返回 NULL。
+
+返回：分配成功返回jstring对象，分配失败返回NULL
+```
+
+```
+原型：jsize (*GetStringUTFLength)(JNIEnv*, jstring);
+
+功能：获取utf-8编码的jstring字符串的长度
+```
+
 #### 获取和释放以 Unicode 格式编码的字符串
 
 ```
@@ -39,20 +55,10 @@ JVM 内部会分配一块新的内存，用于存储源字符串的拷贝，以�
 功能：释放GetStringChars 内存分配的内存。
 ```
 
-
-
 ```
-原型：jstring (*NewStringUTF)(JNIEnv*, const char*);
+原型：jsize (*GetStringLength)(JNIEnv*, jstring);
 
-功能：构建一个新的 java.lang.String 字符串对象，这个新创建的字符串会自动转换成 Java 支持的 Unicode 编码。
-
-说明：如果 JVM 不能为构造 java.lang.String 分配足够的内存，NewStringUTF 会抛出一个 OutOfMemoryError 异常，并返回 NULL。
-
-返回：分配成功返回jstring对象，分配失败返回NULL
-```
-
-```
-
+功能：获取unicode编码的jstring字符串的长度
 ```
 
 
