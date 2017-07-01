@@ -49,4 +49,6 @@
     * CMake分析
 * [音视频知识](yin-shi-pin-zhi-shi.md)
   * [FFmpeg](yin-shi-pin-zhi-shi/ffmpeg.md)
+* [Git](git.md)
+* [面试简历](mian-shi-jian-li.md)
 
