@@ -54,4 +54,6 @@
   * [AIDL](service/aidl.md)
   * APP启动流程
 * Android单元测试
+* [Git](git.md)
+* [面试简历](mian-shi-jian-li.md)
 
