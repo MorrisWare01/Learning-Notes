@@ -12,7 +12,7 @@
 
 ### 专业技能
 
-* 熟练掌握Java，熟悉C语言
+* 熟练掌握Java、C语言
 
 * 掌握常见的算法、数据结构与设计模式
 
@@ -24,7 +24,7 @@
 
 * 熟练掌握Json、XML网络数据解析
 
-* 了解NDK/JNI、Binder、AIDL
+* 了解使用NDK/JNI、Binder、AIDL
 
 * 熟练使用Linux系统、掌握常用shell命令
 
@@ -34,7 +34,7 @@
 
 * 公司：杭州山科智能科技股份有限公司
 
-* 时间：2016.7~2017.5
+* 时间：2016.8~2017.5
 
 * 部门：软件研发部-Android应用开发
 
@@ -42,9 +42,22 @@
 
 ### 项目经验
 
+#### 神猫阅读
+
+简介：神猫阅读是个人开发的一款小说阅读器app，运用Material Design风格设计界面，目前完成书架模块、书城模块、搜素模块和阅读器模块。
+
+地址：[https://github.com/MorrisWare01/GodCatReader](https://github.com/MorrisWare01/GodCatReader)
+
+技术：闪屏页检测SDka读
+
+
+
+#### 泵站管理
+
+
+
 #### 山科大表
 
-* 简介：山科大表APP用于查看山科公司研发的大型
 * 
 
 
