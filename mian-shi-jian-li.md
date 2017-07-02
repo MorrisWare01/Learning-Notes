@@ -48,13 +48,18 @@
 
 地址：[https://github.com/MorrisWare01/GodCatReader](https://github.com/MorrisWare01/GodCatReader)
 
-技术：闪屏页检测SDka读
+技术：
 
-
+* 闪屏页检测SD卡读写权限和读取手机状态权限；
+* GreenDao保存书架数据库信息；
+* Retrofit添加CacheInterceptor拦截器进行网络缓存配置；
+* RecyclerView嵌套RecyclerView实现分类书籍列表；
+* 全局配置UncaughtExceptionHandler处理，有异常发生退出应用并保存Log数据到本地；
+* 自定义阅读器View，实现文本分页和翻页动画；
 
 #### 泵站管理
 
-
+简介：
 
 #### 山科大表
 
