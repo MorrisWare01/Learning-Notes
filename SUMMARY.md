@@ -55,5 +55,6 @@
   * APP启动流程
 * [Android单元测试](androiddan-yuan-ce-shi.md)
 * [Git](git.md)
+  * [Git常用命令](git/gitchang-yong-ming-ling.md)
 * [面试简历](mian-shi-jian-li.md)
 
