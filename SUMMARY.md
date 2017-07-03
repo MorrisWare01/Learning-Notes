@@ -1,11 +1,13 @@
 # Summary
 
 * [Introduction](README.md)
+* [Markdown语法](markdownyu-fa.md)
 * [Ubuntu之旅](ubuntuzhi-lv.md)
   * [安装](ubuntuzhi-lv/an-zhuang-qu-dong.md)
     * [显卡驱动](ubuntuzhi-lv/an-zhuang-qu-dong/xian-qia-qu-dong.md)
     * [无线网卡驱动](ubuntuzhi-lv/an-zhuang-qu-dong/wu-xian-wang-qia-qu-dong.md)
     * [Sublime](ubuntuzhi-lv/an-zhuang-qu-dong/sublime.md)
+      * [Package Control](ubuntuzhi-lv/an-zhuang-qu-dong/sublime/package-control.md)
   * [Linux常用命令](ubuntuzhi-lv/linux.md)
 * [深入理解Java虚拟机](shen-ru-li-jie-java-xu-ni-ji.md)
   * [内存模型](shen-ru-li-jie-java-xu-ni-ji/nei-cun-qu-yu.md)
@@ -58,5 +60,4 @@
 * [Android单元测试](androiddan-yuan-ce-shi.md)
 * [Git](git.md)
   * [Git常用命令](git/gitchang-yong-ming-ling.md)
-* [面试简历](mian-shi-jian-li.md)
 
