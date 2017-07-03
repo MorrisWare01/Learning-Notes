@@ -9,6 +9,8 @@
     * [Sublime](ubuntuzhi-lv/an-zhuang-qu-dong/sublime.md)
       * [Package Control](ubuntuzhi-lv/an-zhuang-qu-dong/sublime/package-control.md)
   * [Linux常用命令](ubuntuzhi-lv/linux.md)
+* [Git](git.md)
+  * [Git常用命令](git/gitchang-yong-ming-ling.md)
 * [深入理解Java虚拟机](shen-ru-li-jie-java-xu-ni-ji.md)
   * [内存模型](shen-ru-li-jie-java-xu-ni-ji/nei-cun-qu-yu.md)
   * [类加载机制](shen-ru-li-jie-java-xu-ni-ji/lei-jia-zai-ji-zhi.md)
@@ -58,6 +60,5 @@
   * [AIDL](service/aidl.md)
   * APP启动流程
 * [Android单元测试](androiddan-yuan-ce-shi.md)
-* [Git](git.md)
-  * [Git常用命令](git/gitchang-yong-ming-ling.md)
+* [面试简历](mian-shi-jian-li.md)
 
