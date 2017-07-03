@@ -46,9 +46,10 @@
 
 ### 链接/图片
 
-\[link\]\(http://www.baidu.com\)
-
-!\[pic\]\)\(/screenshot/1.jpg\)
+```
+[link](http://www.baidu.com\)
+![pic])(/screenshot/1.jpg)
+```
 
 
 
