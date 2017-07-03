@@ -49,6 +49,8 @@
 ```
 [link](http://www.baidu.com\)
 ![pic])(/screenshot/1.jpg)
+![pic])(/screenshot/1.jpg =280) 指定宽度，=前面有空格
+<img src="./xxx.png" width = "300" height = "200" alt="图片名称" align=center />
 ```
 
 
