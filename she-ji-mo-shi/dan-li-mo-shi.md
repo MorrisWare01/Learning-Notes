@@ -35,6 +35,20 @@ INSTANCE = new Singleton\(\)并非原子操作，执行该语句jvm做了三件�
 
 而volatile关键词的功能为禁止指定重排序优化。
 
+### 饿汉式
+
+```
+public class Singleton{
+    //类加载时就初始化
+    private static final Singleton instance = new Singleton();
+    
+    private Singleton(){}
+    public static Singleton getInstance(){
+        return instance;
+    }
+}
+```
+
 ### 静态内部类
 
 ```
