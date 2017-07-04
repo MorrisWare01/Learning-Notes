@@ -63,4 +63,6 @@
   * 测试驱动开发
   * [MockitoAPI](androiddan-yuan-ce-shi/mockitoapi.md)
 * [面试简历](mian-shi-jian-li.md)
+* [设计模式](she-ji-mo-shi.md)
+  * [单例模式](she-ji-mo-shi/dan-li-mo-shi.md)
 
