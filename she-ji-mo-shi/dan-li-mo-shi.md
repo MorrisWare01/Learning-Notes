@@ -41,13 +41,15 @@ INSTANCE = new Singleton\(\)并非原子操作，执行该语句jvm做了三件�
 public class Singleton{
     //类加载时就初始化
     private static final Singleton instance = new Singleton();
-    
+
     private Singleton(){}
     public static Singleton getInstance(){
         return instance;
     }
 }
 ```
+
+饿汉式的创建方式在一些场景中将无法使用：譬如 Singleton 实例的创建是依赖参数或者配置文件的，在 getInstance\(\) 之前必须调用某个方法设置参数给它，那样这种单例写法就无法使用了。
 
 ### 静态内部类
 
