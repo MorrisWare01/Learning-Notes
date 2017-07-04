@@ -65,4 +65,7 @@
 * [面试简历](mian-shi-jian-li.md)
 * [设计模式](she-ji-mo-shi.md)
   * [单例模式](she-ji-mo-shi/dan-li-mo-shi.md)
+  * [代理模式](she-ji-mo-shi/dai-li-mo-shi.md)
+  * [适配器模式](she-ji-mo-shi/shi-pei-qi-mo-shi.md)
+  * [观察者模式](she-ji-mo-shi/guan-cha-zhe-mo-shi.md)
 
