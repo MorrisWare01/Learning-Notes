@@ -10,8 +10,6 @@
 
 #### 5、在Android Studio配置offline work
 
-
-
 ### 配置maven为阿里镜像
 
 ```
