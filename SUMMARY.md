@@ -68,5 +68,7 @@
   * [代理模式](she-ji-mo-shi/dai-li-mo-shi.md)
   * [适配器模式](she-ji-mo-shi/shi-pei-qi-mo-shi.md)
   * [观察者模式](she-ji-mo-shi/guan-cha-zhe-mo-shi.md)
-* [Grandle配置](grandlepei-zhi.md)
+* [Gradle配置](grandlepei-zhi.md)
+* [代码混淆](dai-ma-hun-yao.md)
+  * [模板](dai-ma-hun-yao/mo-ban.md)
 
