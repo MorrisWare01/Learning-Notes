@@ -71,4 +71,7 @@
 * [Gradle配置](grandlepei-zhi.md)
 * [代码混淆](dai-ma-hun-yao.md)
   * [模板](dai-ma-hun-yao/mo-ban.md)
+* [finish](finish.md)
+* [View](view.md)
+  * [Touch](view/touch.md)
 
