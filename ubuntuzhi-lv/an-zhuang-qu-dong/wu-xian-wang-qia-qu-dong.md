@@ -14,8 +14,7 @@ deb http://httpredir.debian.org/debian/ jessie main contrib non-free
 ```
 # apt-get update
 # sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 导入证书
-# apt-get install linux-image-$(uname -r|sed 's,[^-]*-[^-]*-,,') 
-linux-headers-$(uname -r|sed 's,[^-]*-[^-]*-,,') broadcom-sta-dkms
+# apt-get install linux-image-$(uname -r|sed 's,[^-]*-[^-]*-,,') linux-headers-$(uname -r|sed 's,[^-]*-[^-]*-,,') broadcom-sta-dkms
 ```
 
 3.Unload conflicting modules:
