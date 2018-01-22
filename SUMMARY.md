@@ -9,6 +9,7 @@
     * [Sublime](ubuntuzhi-lv/an-zhuang-qu-dong/sublime.md)
       * [Package Control](ubuntuzhi-lv/an-zhuang-qu-dong/sublime/package-control.md)
   * [Linux常用命令](ubuntuzhi-lv/linux.md)
+  * 同步Window和Ubuntu时间
 * [Git](git.md)
   * [Git常用命令](git/gitchang-yong-ming-ling.md)
 * [深入理解Java虚拟机](shen-ru-li-jie-java-xu-ni-ji.md)
